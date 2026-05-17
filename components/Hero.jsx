@@ -1,6 +1,5 @@
 import Image from "next/image";
 import TiltCard from "./TiltCard";
-import profileImage from "../linked.png";
 
 export default function Hero() {
   return (
@@ -16,8 +15,10 @@ export default function Hero() {
             <div className="shrink-0 self-start lg:absolute lg:left-[calc(100%+15rem)] lg:top-10">
               <div className="h-32 w-32 overflow-hidden rounded-full border border-white/15 bg-white/5 p-1 shadow-[0_18px_45px_rgba(0,0,0,0.45)] sm:h-36 sm:w-36 lg:h-52 lg:w-52">
                 <Image
-                  src={profileImage}
+                  src="/linked.png"
                   alt="Profile photo of Rachabattuni Subbarao"
+                  width={208}
+                  height={208}
                   className="h-full w-full rounded-full object-cover"
                   priority
                 />
