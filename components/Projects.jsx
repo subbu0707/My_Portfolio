@@ -7,7 +7,7 @@ const projects = [
     name: "College Events Management System",
     description:
       "Centralized platform for event browsing, registration, scheduling, user authentication, and database-driven participant management.This system reduces manual work.",
-    tech: ["Node", "Express", "React", "MongoDB"],
+    tech: ["Node", "Express", "React", "MySQL"],
     image:
       "https://cdn.slidesharecdn.com/ss_thumbnails/collegeeventmanagement-presentation-210413110429-thumbnail.jpg?width=640&height=640&fit=bounds",
     demo: "https://college-event-management-blue.vercel.app/",
@@ -17,7 +17,7 @@ const projects = [
     name: "Village Job Search Portal",
     description:
       "Accessible portal connecting rural job seekers with nearby employers through a simple, user-friendly interface. The goal is to reduce unemployment in villages by providing a simple, accessible, and centralized system for job discovery and hiring.",
-    tech: ["React", "Node", "MongoDB"],
+    tech: ["React", "Node", "MySQL"],
     image:
       "https://social-img.staticblitz.com/projects/angular-karfyk/b8aa495c9c849320743ac146b51f718e",
     demo: "#contact",
