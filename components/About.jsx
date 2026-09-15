@@ -49,7 +49,7 @@ export default function About() {
               <div className="neon-frame glass rounded-[1.5rem] border border-white/8 p-5">
                 <h3 className="text-xl font-semibold text-white">Backend</h3>
                 <div className="mt-4 flex flex-wrap gap-2">
-                  {["Java", "Node.js", "Express.js", "MongoDB"].map((item) => (
+                  {["Node.js", "Express.js", "MySQL"].map((item) => (
                     <span
                       key={item}
                       className="rounded-full border border-white/10 bg-white/6 px-3 py-2 text-sm text-white/82"
